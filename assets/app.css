@@ -1,0 +1,23 @@
+/* Dichiarazioni generali */
+body {
+    background-color: rgb(17, 17, 17);
+    font-size: 3rem;
+    font-family: 'Impact', Courier, monospace;
+    color: #CCC;
+    text-shadow: 0 1px 0 #000;
+  }
+  
+  #container {
+    margin: 150px auto;
+    width: fit-content;
+  }
+  
+  a {
+    color: rgb(58, 12, 12);
+    text-decoration: none;
+    transition: color 0.5s;
+  }
+  
+  a:hover {
+    color: #FFF;
+  }

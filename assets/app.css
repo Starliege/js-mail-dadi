@@ -21,3 +21,58 @@ body {
   a:hover {
     color: #FFF;
   }
+
+  #indietro {
+    margin-top: 50px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #444444;
+    border: 0;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    color: #FFF;
+    transition: background-color 0.3s;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #6e6e6e;
+  }
+  
+  .hidden {
+    display: none;
+  }
+
+  /* Email */
+#email-form {
+    margin: 15px 0;
+    text-align: center;
+  }
+  
+  #email-form input, button {
+    padding: 10px 20px;
+    background-color: #444444;
+    border: 0;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    color: #FFF;
+    transition: background-color 0.3s;
+  }
+  
+  #email-form input[type="submit"] {
+    cursor: pointer;
+  }
+  
+  #email-form input[type="submit"]:hover {
+    background-color: #6e6e6e;
+  }
+  
+  .valida {
+    color: #00ff00;
+  }
+  
+  .non-valida {
+    color: #ff0000;
+  }
